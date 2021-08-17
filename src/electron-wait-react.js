@@ -14,6 +14,7 @@ const tryConnection = () => client.connect({port: port}, () => {
             const exec = require('child_process').exec;
             exec('yarn run electron');
         }
+        
     }
 );
 
