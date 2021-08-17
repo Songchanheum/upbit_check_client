@@ -20,7 +20,7 @@ function createWindow () {
     slashes: true
   });
   // 개발자 도구를 엽니다.
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
   win.loadURL(startUrl);
 }
 
